@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+html {
+    background-color: lightyellow;
+}
+
+body {
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+    text-align: left;
+}
+
+.column-nav {
+    width: 15%;
+    float: left;
+    text-align: left;
+    position: fixed;
+}
+
+.column-r {
+    width: 60%;
+    float: left;
+    text-align: left;
+    margin-left: 15%;
+}
+
+.back-white {
+    background-color: white;
+}
+
+.padding-s {
+    padding: 3%;
+}
+
+#center {
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+#card-1 {
+    background-image: url(../img/París_Francia.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-2 {
+    background-image: url(../img/luxemburg.jpeg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-3 {
+    background-image: url(../img/suiza.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-4 {
+    background-image: url(../img/big-ben.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-5 {
+    background-image: url(../img/Noticiasuiza.PNG);
+    height: 30vh;
+    width: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-6 {
+    background-image: url(../img/NoticiaLux.PNG);
+    height: 30vh;
+    width: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-7 {
+    background-image: url(../img/NOticiaParis.PNG);
+    height: 30vh;
+    width: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-8 {
+    background-image: url(../img/noticialondres.PNG);
+    height: 30vh;
+    width: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    height: 50vh;
+    background-image: url(../img/portada.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 50px;
+    background-color: lightyellow;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .column-r {
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-left: 0%;
+    }
+    .column-4 {
+        width: 100%;
+    }
+    .column-nav {
+        width: 100%;
+        height: 40vh;
+        position: relative;
+    }
+    ul {
+        margin-left: 38%;
+    }
+}
