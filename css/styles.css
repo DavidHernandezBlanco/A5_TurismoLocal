@@ -18,12 +18,16 @@ body {
     clear: both;
 }
 
+p {
+    font-size: 20px;
+}
+
 h1 {
     font-size: 30px;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .column-1 {
