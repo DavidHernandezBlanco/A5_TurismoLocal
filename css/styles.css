@@ -67,7 +67,6 @@ h3 {
 
 .back-white {
     background-color: rgb(247, 247, 203);
-    ;
 }
 
 .padding-s {
@@ -170,6 +169,19 @@ header h1 {
     }
     .column-4 {
         width: 100%;
+        text-align: center;
+    }
+    #card-5 {
+        margin-left: 18%;
+    }
+    #card-6 {
+        margin-left: 18%;
+    }
+    #card-7 {
+        margin-left: 18%;
+    }
+    #card-8 {
+        margin-left: 18%;
     }
     .column-nav {
         width: 100%;
